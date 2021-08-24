@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+.google-data-studio iframe,
+.google-data-studio object,
+.google-data-studio embed {
+position: absolute;
+top: 60%;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+  color: #222;
+}
+
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em!important;
+}
+
+.bg-light {
+  background-color: #ffffff!important;
+}
+
+.fa-code {
+  color: red;
+}
+
+.fa-css3-alt {
+  color: orange;
+}
+
+.fa-python {
+  color: yellow;
+}
+
+.fa-bootstrap {
+  color: lightgreen;
+}
+
+.fa-js {
+  color: lightblue;
+}
+
+.fa-map-marker-alt {
+  color: violet;
+}
+
+.fa-code, .fa-css3-alt, .fa-python, .fa-bootstrap, .fa-js, .fa-map-marker-alt {
+  font-size: 4em;
+  margin: 1rem;
+}
+
+.carousel-item:link{
+  position: relative;
+  display: none;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  transition: transform 0.6s ease 0s, -webkit-transform 0.6s ease 0s;
+  backface-visibility: hidden;
+  perspective: 1000px;
+  color: #ffffff;
+}
+
+#map {
+  height: 100%;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+.display-4 {
+  font-size: 200%;
+}
+}
+@media (max-width: 576px) {
+.display-4 {
+  font-size: 180%;
+} 
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+

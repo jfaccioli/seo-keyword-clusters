@@ -2,8 +2,9 @@ import pandas as pd
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, func
-
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template, url_for
+import os
+import time
 
 
 #################################################
@@ -24,14 +25,32 @@ Base.prepare(engine, reflect=True)
 #################################################
 app = Flask(__name__)
 
+def format_server_time():
+  server_time = time.localtime()
+  return time.strftime("%I:%M:%S %p", server_time)
 
 #################################################
 # Flask Routes
 #################################################
 
 ########## Home Page ########## 
-
 @app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route("/boxplots.html")
+def boxplots():
+    return render_template("boxplots.html")
+
+@app.route("/about")
+def about():
+    return render_template("about.html")
+
+@app.route("/visualisations.html")
+def visualisations():
+    return render_template("visualisations.html")
+
+@app.route("/directories")
 def welcome():
     """List all available api routes."""
     return (

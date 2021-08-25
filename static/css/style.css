@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-.google-data-studio iframe,
+/* .google-data-studio iframe,
 .google-data-studio object,
 .google-data-studio embed {
 position: absolute;
-top: 60%;
+top: 10%;
 left: 0;
 width: 100%;
-height: 100%;
-}
+height: 772%;
+} */
 
 #map {
   height: 100%;

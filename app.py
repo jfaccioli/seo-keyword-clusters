@@ -33,24 +33,28 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/boxplots.html")
-def boxplots():
-    return render_template("boxplots.html")
+@app.route("/google-data-studio-dashboard")
+def gds_studio():
+    return render_template("gds_dashboard.html")
+
+@app.route("/tableau-dashboard")
+def tableau():
+    return render_template("tableau_dashboard.html")
 
 @app.route("/about")
 def about():
     return render_template("about.html")
 
-@app.route("/visualisations.html")
-def visualisations():
-    return render_template("visualisations.html")
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
 
 @app.route("/directories")
 def welcome():
     """List all available api routes."""
     return (
         f"Welcome to SEO Keyword Clusters<br/>"
-        f"Available Routes:<br/>"
+        f"Here is the URL for JSON Data:<br/>"
         f"/keyword_clustering_data<br/>"
     )
 

@@ -8,7 +8,7 @@ d3.json(keyword_clustering_data).then((importedData) => {
     var impressions = importedData.Impressions;
     var position = importedData.Position;
     var top_queries = importedData["Top queries"];
-    console.log(importedData);    
+    console.log(importedData);
 
     
 });

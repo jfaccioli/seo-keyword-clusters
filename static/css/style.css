@@ -1,14 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 
-/* .google-data-studio iframe,
+.google-data-studio iframe,
 .google-data-studio object,
 .google-data-studio embed {
 position: absolute;
-top: 10%;
+top: 20%;
 left: 0;
 width: 100%;
-height: 772%;
-} */
+height: 100%;
+}
+.container-fluid {
+  background-color: #e9ecef;
+  padding: 5%;
+}
+
+#logos_about.container-fluid {
+  padding-top: 0;
+  padding-bottom: 5%;
+}
+
+#grid.row {
+  padding-top: 0;
+  padding-bottom: 0%;
+}
+
+.page-footer {
+  background-color: #343a40;
+}
+
+.footer-copyright {
+  color: #949c9e;
+}
 
 #map {
   height: 100%;
@@ -49,8 +71,16 @@ html, body {
   color: yellow;
 }
 
+.fa-google {
+  color: blue;
+}
+
 .fa-bootstrap {
   color: lightgreen;
+}
+
+.fa-table {
+  color:purple;
 }
 
 .fa-js {
@@ -61,7 +91,7 @@ html, body {
   color: violet;
 }
 
-.fa-code, .fa-css3-alt, .fa-python, .fa-bootstrap, .fa-js, .fa-map-marker-alt {
+.fa-code, .fa-css3-alt, .fa-python, .fa-bootstrap, .fa-js, .fa-table, .fa-google, .fa-map-marker-alt, .fa-drafting-compass {
   font-size: 4em;
   margin: 1rem;
 }

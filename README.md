@@ -14,6 +14,12 @@ The repository can be downloaded and you can use your own dataset. However, you 
 Here is a guide to create the Google Spreadsheet and access the credentials (to be kept locally!):
 https://towardsdatascience.com/google-sheets-pandas-dataframe-6b8666f9cf6
 
+&nbsp;
+&nbsp;
+
 ![SEO Keyword Clusters Screenshot 1](static/img/seo-keyword-clusters-1.JPG)
 ![SEO Keyword Clusters Screenshot 1](static/img/seo-keyword-clusters-2.JPG)
+
+&nbsp;
+
 ![SEO Keyword Clusters Screenshot 1](static/img/seo-keyword-clusters-3.JPG)

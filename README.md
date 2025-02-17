@@ -1,5 +1,4 @@
 # SEO Keyword Clusters
-https://seo-keyword-clusters.herokuapp.com/
 
 An application using Machine Learning to automatically create clusters of queries from Google Search Console. The clusters are also named automatically by the ML model.
 The results are being displayed with Google Data Studio and Tableau. 

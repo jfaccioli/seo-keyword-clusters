@@ -2,7 +2,7 @@
 
 This repository contains the original 4-year-old application using Machine Learning to automatically create clusters of queries from Google Search Console (GSC). The clusters are also named automatically by the ML model. The results are being displayed with Google Data Studio and Tableau. Note: the current data set is from an NDIS company, so the keywords are related to disability services.
 
-**Note**: This version is now legacy. For the upgraded Streamlit-based application with enhanced features, visit the new repository: [seo-cluster](https://github.com/jfaccioli/seo-cluster) or the live app at [https://seo-cluster-kbeny9ggdbtkafkkasw89k.streamlit.app/](https://seo-cluster-kbeny9ggdbtkafkkasw89k.streamlit.app/).
+**Note**: This version is now legacy. For the upgraded Streamlit-based application with enhanced features, visit the the live app at [[https://seo-cluster-ai.streamlit.app/](https://seo-cluster-ai.streamlit.app/).
 
 The repository can be downloaded and you can use your own dataset. However, you will need to make a few steps:
 - Your website needs to be connected to Google Search Console

@@ -58,11 +58,8 @@ It uses:
 ```
 ---
 
-### 2. License, History, and Support (Second Block)
+### 2. License, History, and Support
 
-This block contains the remainder of the text you highlighted, starting with the License section. I have explicitly added Markdown list syntax (`*`) and bolding (`**`) where it was missing in the original text you provided, to ensure it renders correctly after you paste it.
-
-```markdown
 ## 🏛 License & Usage
 
 This legacy version is open for learning and academic use only.

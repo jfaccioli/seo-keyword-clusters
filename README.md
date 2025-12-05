@@ -55,7 +55,7 @@ It uses:
 ├── templates/                # Jinja2 templates
 ├── keyword_clustering.sqlite # Example database
 └── README.md
-
+```
 ---
 
 ### 2. License, History, and Support (Second Block)

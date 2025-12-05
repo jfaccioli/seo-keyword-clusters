@@ -1,13 +1,105 @@
-# SEO Keyword Clusters (Legacy)
+# ⭐ SEO Keyword Clusters (Legacy Project)
 
-This repository contains the original 4-year-old application using Machine Learning to automatically create clusters of queries from Google Search Console (GSC). The clusters are also named automatically by the ML model. The results are being displayed with Google Data Studio and Tableau. Note: the current data set is from an NDIS company, so the keywords are related to disability services.
+> **⚠️ This repository is archived and represents an early prototype of what eventually became SEOCluster.ai.**
+> It is preserved for educational and historical purposes only.
 
-**Note**: This version is now legacy. For the upgraded Streamlit-based application with enhanced features, visit the the live app at [https://seo-cluster-ai.streamlit.app/](https://seo-cluster-ai.streamlit.app/).
+---
 
-The repository can be downloaded and you can use your own dataset. However, you will need to make a few steps:
-- Your website needs to be connected to Google Search Console
-- You need to create a new Google Spreadsheet (named 'keyword_clustering' in our case, feel free to use a different name)
-- Google credentials JSON file (named 'default.json' in our Jupyter Notebook, feel free to choose a different name) and Google Search Console "Queries.csv" to be added / replaced in the repository.
+## 🚀 Try the New Production Platform: SEOCluster.ai
 
-Here is a guide to create the Google Spreadsheet and access the credentials (to be kept locally!): [https://towardsdatascience.com/google-sheets-pandas-dataframe-6b8666f9cf6](https://towardsdatascience.com/google-sheets-pandas-dataframe-6b8666f9cf6)
+A modern AI-powered SaaS for keyword clustering, content briefs, and automated landing pages.
 
+👉 **https://seocluster.ai**
+
+### Highlights of the new platform:
+* ⚡ FastAPI backend + Next.js frontend
+* 🔥 SentenceTransformer embeddings (no more classic KMeans)
+* 🌍 Local-intent detection across 325k+ global locations
+* 📝 AI-generated content briefs
+* 🧱 Landing page generator
+* 🔐 Firebase authentication
+* 💳 Stripe billing (Free, Pro, Agency tiers)
+* 📊 Google Search Console OAuth integration
+* 🚀 Cloud Run multi-worker deployment
+* 🧠 Smart caching & optimized UX
+
+This legacy repo does **not** include these features — it represents the origins of the project.
+
+---
+
+# 📚 About This Legacy Version
+
+This codebase was originally created between **2021–2022** for a **UWA Data Science Capstone project**.
+
+It uses:
+* Python + Flask
+* Pandas & scikit-learn
+* Traditional KMeans clustering
+* TF-IDF cluster labeling
+* Google Data Studio + Tableau for visualization
+* CSV export from Google Search Console
+* Basic SQLite storage
+
+📌 **This version is not production-ready.**
+
+---
+
+## 📦 Repository Structure
+
+```bash
+.
+├── app.py                    # Legacy Flask app
+├── Keyword_Clustering.ipynb  # Main ML notebook
+├── Queries.csv               # Sample GSC query data
+├── static/                   # Static assets
+├── templates/                # Jinja2 templates
+├── keyword_clustering.sqlite # Example database
+└── README.md
+
+---
+
+### 2. License, History, and Support (Second Block)
+
+This block contains the remainder of the text you highlighted, starting with the License section. I have explicitly added Markdown list syntax (`*`) and bolding (`**`) where it was missing in the original text you provided, to ensure it renders correctly after you paste it.
+
+```markdown
+## 🏛 License & Usage
+
+This legacy version is open for learning and academic use only.
+
+✔️ **Allowed:**
+* Personal study
+* Academic use
+* ML experimentation
+
+❌ **Not Allowed:**
+* Commercial use
+* Using this code in SaaS products
+* Replicating SEOCluster.ai features
+* Redistributing modified versions for business use
+
+For production use →
+👉 **https://seocluster.ai**
+
+## 📜 Project History
+
+This repository represents the earliest foundation of SEOCluster.ai.
+* **2021** – Built as a Data Science ML project
+* **2022** – First UI deployed to Heroku
+* **2023–2024** – Rewritten using modern full-stack architecture
+* **2024–2025** – Became SEOCluster.ai, a full SaaS platform
+
+The repository remains public because:
+* It already has ⭐ stars and forks
+* It helps others learn ML-based clustering
+* It documents the evolution of the project
+
+## ⭐ Support the Journey
+
+If you're interested in how this evolved into a real SaaS business, consider:
+* ⭐ Starring this repo
+* 🚀 Trying SEOCluster.ai → **https://seocluster.ai**
+* 💬 Connecting for collaboration
+
+## 🔗 Useful Links
+* Current SaaS: **https://seocluster.ai**

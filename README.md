@@ -58,8 +58,6 @@ It uses:
 ```
 ---
 
-### 2. License, History, and Support
-
 ## 🏛 License & Usage
 
 This legacy version is open for learning and academic use only.
